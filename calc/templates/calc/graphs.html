@@ -1,0 +1,35 @@
+{% extends 'main.html' %}
+
+{% block graphs %}
+
+<form class="input-group">
+  <div class="col-lg-12">
+  <fieldset>
+  <div class="row">
+    <legend>Введите функцию</legend>
+	</br>
+    <label class="col-lg-2">F(x):</label>
+    <input class="col-lg-10" type="text"  placeholder="введите функцию">
+   </div>
+	</br>
+	</br>
+	<div class="row">
+	<label class="col-lg-4">Введите границы по оси ОХ:</label>
+    <input class="col-lg-4" type="text" placeholder="начало промежутка">
+	<input class="col-lg-4" type="text" placeholder="конец промежутка">
+	</div>
+	</br>
+	</br>
+	<div class="row">
+	<label class="col-lg-4">Введите границы по оси ОУ:</label>
+    <input class="col-lg-4" type="text" placeholder="начало промежутка">
+	<input class="col-lg-4" type="text" placeholder="конец промежутка">
+	</div>
+	</br>
+    <button type="submit" class="btn btn-success">Отправить</button>
+  </fieldset>
+  </div>
+</form>
+
+	
+{% endblock %}
